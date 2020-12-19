@@ -8,7 +8,7 @@ import (
 //go:generate ./gen_version.sh
 
 //go:embed version.txt
-var version = "unknown version"
+var version string
 
 func main() {
 fmt.Println("version:", version)
