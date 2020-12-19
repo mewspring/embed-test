@@ -11,5 +11,5 @@ import (
 var version = "unknown version"
 
 func main() {
-	fmt.Println("version:", version)
+fmt.Println("version:", version)
 }
